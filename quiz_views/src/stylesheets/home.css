@@ -1,0 +1,148 @@
+.container{
+    margin:black;
+}
+.page{
+    display:flex;
+    width:100%;
+}
+.sideBar1{
+    position:absolute;
+    width: 35%;
+    height: 100%;
+}
+.sideBar2
+{
+    position:absolute;
+    left: 65%;
+    width: 35%;
+    height: 100%;
+}
+#homeBtn1{
+    position: absolute;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: rgb(224, 164, 35);
+    color: rgb(127, 28, 219);
+    height: 12%;
+    width: 30%;
+    left: 36.5%;
+    top: 50%;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+}
+#homeBtn2{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10%;
+    background-color: rgb(224, 164, 35);
+    color: rgb(127, 28, 219);
+    height: 12%;
+    width: 30%;
+    left: 36.5%;
+    top: 64%;
+}
+.homeBtn:hover{
+    border-color: rgb(226, 243, 226);
+    color: rgb(245, 247, 247);
+    /* box-shadow: 0 0.5em 0.5em -0.4em rgb(211, 247, 82); */
+    transform: translateY(-1.5px);
+    cursor: pointer;
+}
+#main{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 35%;
+    height:100%;
+    width:30%;;
+}
+#main .main-1{
+    position: absolute;
+    height: 20%;
+    width: 100%;
+}
+#main .main-2{
+    position: absolute;
+    border: 2px solid black;
+    /* background-color: rgb(20, 15, 95); */
+    background-color: blueviolet;
+    height: 60%;
+    width: 100%;
+    top: 25%;
+}
+#main .main-3{
+    position:absolute;
+    height: 20%;
+    top:80%;
+    width: 100%;
+}
+.image{
+    position:relative;
+    width: 100%;
+    height: 100%;
+}
+ /* .img-text1{
+    position: absolute;
+    background-color:#4361ee;
+    color: white;
+    width: 25%;
+    left: 37.5%;
+    top: 50%;
+}
+.img-text2{
+    position: absolute;
+    background-color:#4361ee;
+    color: white;
+    width:25%;
+    left: 37.5%;
+    top: 60%;
+} */
+.heading1{
+    position: absolute;
+    color:#eef5ed;
+    font-size: 50px;
+    text-decoration-line: underline ;
+    left: 24%;
+    top: 25%;
+}
+.heading2{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    color:#dff708;
+    height: 50px;
+    width: 300px;
+    left: 30%;
+    top: 10%;
+}
+i{
+    position: absolute;
+    color:rgb(15, 121, 38);
+    border: 5px solid black;
+    border-radius: 50%;
+    padding: 0px;
+    left: 20%;
+    top: 33%;
+}
+.highScore{
+    /* display: none; */
+    color: rgb(127, 140, 255);
+}
+#timer{
+    background-color: yellow;
+    color: red;
+    left: 60%;
+    width: 100px;
+}
+#qn{
+    background-color: violet;
+}
+.carousel_img{
+    max-height: 350px;
+}
+.welcomeMsg{
+    text-align: center;
+}
